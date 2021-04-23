@@ -1,4 +1,5 @@
-// Full Name (StudentNum)
+// Nahian Hasan Zaim (22849901)
+// Wai Yee Goh (22769803)
 
 public class MyProject implements Project {
     public boolean allDevicesConnected(int[][] adjlist) {
