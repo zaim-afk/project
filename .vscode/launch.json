@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MyProject",
+            "request": "launch",
+            "mainClass": "MyProject",
+            "projectName": "project_cd17ace4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleProjectUnitTest",
+            "request": "launch",
+            "mainClass": "SampleProjectUnitTest",
+            "projectName": "project_cd17ace4"
+        }
+    ]
+}
