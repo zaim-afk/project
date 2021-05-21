@@ -77,6 +77,16 @@ public class SampleProjectUnitTest {
             proj.allDevicesConnected(adjlist), true);
 
         adjlist = new int[][] {
+            { 1 },
+            { 2 },
+            { 3 },
+            { 1 },
+        };
+
+        testBoolean(pref + "source unreachable",
+            proj.allDevicesConnected(adjlist), false);
+
+        adjlist = new int[][] {
             { },
             { },
         };
